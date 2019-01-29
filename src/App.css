@@ -1,0 +1,55 @@
+
+body{
+    background: #2d2c2d;
+}
+#main{
+    width: 50%;
+    margin: 5px auto;
+    background-color: white;
+    padding:40px 20px 3px 20px;
+}
+
+form{
+    padding-bottom: 20px;
+}
+
+form input{
+    width: 40%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    margin: 5px 5px 0px 5px;
+    line-height: 20px;
+    font-size: 100%;
+}
+
+form button{
+    background-color: #eae9ea;
+    outline: none;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.toggleCheck{
+    color: grey ;
+    text-decoration:line-through;
+}
+
+.todoList{
+    list-style-type: none;
+    padding: 8px 15px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 3px;
+}
+
+#delete{
+    float: right;
+    background-color: #e64643;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
